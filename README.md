@@ -27,6 +27,11 @@ Modularizando o código, modelos
 
 * Criamos a struct de aluno, que vamos disponibilizar como recurso da nossa API.
 
+Comandos para obter o ip para configurar o PostgreSQL
+
+```docker-compose exec postgres sh```
+```hostname -i``` 
+
 ### 🛠 Tecnologias
 
 - [GoLang 1.20](https://go.dev/)
