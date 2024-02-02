@@ -27,10 +27,18 @@ Modularizando o código, modelos
 
 * Criamos a struct de aluno, que vamos disponibilizar como recurso da nossa API.
 
-Comandos para obter o ip para configurar o PostgreSQL
+Comandos para obter o ip para configurar o PostgreSQL.:
 
 ```docker-compose exec postgres sh```
 ```hostname -i``` 
+
+Instalando GORM.:
+
+```go get -u gorm.io/gorm```
+
+Instalando o driver do postgres.:
+
+```go get gorm.io/driver/postgres```
 
 ### 🛠 Tecnologias
 
