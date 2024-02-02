@@ -2,7 +2,6 @@
 Go e Gin: criando API rest com simplicidade
 </h1>
 
-
 <h2 align="center">
 Instalando e criando a primeira rota com Gin
 </h2>
@@ -17,6 +16,16 @@ Obtendo gim
 Com suporte ao módulo Go, basta adicionar o seguinte import
 
 ```go get -u github.com/gin-gonic/gin```
+
+<h2 align="center">
+Modularizando o código, modelos e banco de dados
+</h2>
+
+* Modularizamos nosso código criando pacotes de controles e rotas, tornando nosso código mais fácil de manter e editar;
+
+* Aprendemos como pegar informações passadas por parâmetros e retornar uma mensagem personalizada;
+
+* Criamos a struct de aluno, que vamos disponibilizar como recurso da nossa API.
 
 ### 🛠 Tecnologias
 
