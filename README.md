@@ -18,7 +18,7 @@ Com suporte ao módulo Go, basta adicionar o seguinte import
 ```go get -u github.com/gin-gonic/gin```
 
 <h2 align="center">
-Modularizando o código, modelos e banco de dados
+Modularizando o código, modelos
 </h2>
 
 * Modularizamos nosso código criando pacotes de controles e rotas, tornando nosso código mais fácil de manter e editar;
