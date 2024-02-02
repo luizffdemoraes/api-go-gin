@@ -27,6 +27,14 @@ Modularizando o código, modelos
 
 * Criamos a struct de aluno, que vamos disponibilizar como recurso da nossa API.
 
+<h2 align="center">
+Struct, banco de dados e ORM
+</h2>
+
+* Instalamos o Gorm para não escrever código sql, facilitando a comunicação da aplicação com o banco de dados;
+* Conectamos a API com banco de dados e realizamos uma migração com base na struct de aluno;
+* Alteramos o controle para exibir os alunos registrados no banco de dados!
+
 Comandos para obter o ip para configurar o PostgreSQL.:
 
 ```docker-compose exec postgres sh```
@@ -44,3 +52,4 @@ Instalando o driver do postgres.:
 
 - [GoLang 1.20](https://go.dev/)
 - [Gin 1.9.1](https://github.com/gin-gonic/gin)
+- [Gorm](https://gorm.io/index.html)
