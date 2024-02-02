@@ -56,6 +56,14 @@ Implementando rotas HTTP
 * Criamos um endpoint para exibir alunos por ID;
 * Alteramos o comportamento da API para exibir uma mensagem quando o ID do aluno não for encontrado;
 
+<h2 align="center">
+Deletando, editando e buscando alunos
+</h2>
+
+* Adicionamos um endpoint com método Delete para deletar um aluno e removê-lo do banco de dados;
+* Adicionamos um endpoint com método Patch para atualizar o cadastro de um aluno;
+* Criamos um endpoint para buscar alunos pelo número do CPF;
+
 ### 🛠 Tecnologias
 
 - [GoLang 1.20](https://go.dev/)
