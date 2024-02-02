@@ -48,6 +48,14 @@ Instalando o driver do postgres.:
 
 ```go get gorm.io/driver/postgres```
 
+<h2 align="center">
+Implementando rotas HTTP
+</h2>
+
+* Alteramos o controller para exibir alunos do banco de dados;
+* Criamos um endpoint para exibir alunos por ID;
+* Alteramos o comportamento da API para exibir uma mensagem quando o ID do aluno não for encontrado;
+
 ### 🛠 Tecnologias
 
 - [GoLang 1.20](https://go.dev/)
